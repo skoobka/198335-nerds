@@ -1,0 +1,22 @@
+body {
+  font-size: 16px;
+  line-height: 24px;
+  color:#000000;
+  font-weight: regular;
+  font-style: Roboto;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color:#000000;
+  font-weight: bold;
+  font-style: Roboto;
+}
+h4 {
+  font-size: 36px;
+  line-height: 36px;
+  color:#000000;
+  font-weight: bold;
+  font-style: Roboto;
+}
