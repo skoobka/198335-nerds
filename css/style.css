@@ -5,6 +5,130 @@ body {
   font-weight: regular;
   font-style: Roboto;
 }
+.main-header {
+}
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  width: 1160px;
+  margin: 0 auto;
+  padding:0 20px;
+}
+.home {
+  float: left;
+  width: 160px;
+  margin-right: 140px;
+}
+.main-navigation {
+  float: left;
+  width: 560px;
+}
+.user-block {
+  float: right;
+  width: 160px;
+}
+.slider {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+
+.features-item1 {
+  float: left;
+  width: 300px;
+  margin-right: 100px;
+}
+.features-item2 {
+  float: left;
+  width: 300px;
+}
+.features-item3 {
+  float: right;
+  width: 300px;
+  margin-right: 60px;
+  margin-left: 100px;
+}
+.about-us {
+  width: 1160px;
+  margin: 0 auto;
+}
+.about {
+  float: left;
+  width: 660px;
+}
+.about-img {
+  float: right;
+  width: 360px;
+}
+.portfolio {
+  width: 1160px;
+  margin: 0 auto;
+}
+.map{
+  width: 1440px;
+  margin: 0 auto;
+}
+.footer-social {
+  float: left;
+  width: 260px;
+  margin-right: 140px;
+}
+.friends {
+  float: left;
+  width: 560px;
+}
+
+.caption {
+  width: 760px;
+  margin: 0 auto;
+}
+.selection {
+  float: left;
+  width: 260px;
+}
+.examples {
+  float: right;
+  width: 760px;
+}
+.gallery-sorting {
+  width: 760px;
+  margin: auto;
+}
+.sedona {
+  float: left;
+  width: 360px;
+  margin-right: 40px;
+}
+.pink {
+  float: left;
+  width: 360px;
+}
+.barsh {
+  float: left;
+  width: 360px;
+  margin-right: 40px;
+}
+.mishka {
+  float: left;
+  width: 360px;
+}
+.study {
+  float: left;
+  width: 360px;
+  margin-right: 40px;
+}
+.kvas {
+  float: left;
+  width: 360px;
+}
+.paginator {
+  width: 460px;
+  margin-left: 0;
+}
+
 
 h3 {
   font-size: 24px;
@@ -13,6 +137,7 @@ h3 {
   font-weight: bold;
   font-style: Roboto;
 }
+
 h4 {
   font-size: 36px;
   line-height: 36px;
