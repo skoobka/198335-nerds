@@ -3,21 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>Магазин</title>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700.." rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/normalize.css" rel="stylesheet">
   </head>
   <body>
-  <header class="main-header">
+  <header class="main-header clearfix">
     <div class="container">
-      <a class="home" href="#"> <img src="img/home.png" width="160" height="65" alt="Главная">Главная</a>
+      <a class="home" href="index.html"> <img src="img/home.png" width="160" height="65" alt="Главная">Главная</a>
       <nav class="main-navigation">
-        <ul>
-          <li><a href="#">Студия</a></li>
-          <li><a href="#">Клиенты</a></li>
-          <li><a href="#">Магазин</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>
+          <a href="#">Студия</a>
+          <a href="#">Клиенты</a>
+          <a href="shop.html">Магазин</a>
+          <a href="#">Контакты</a>
       </nav>
       <div class="user-block">
         <a href="#">Корзина</a>
@@ -28,11 +26,14 @@
     <div class="caption"><h1>Магазин готовых шаблонов</h1></div>
     <section class="selection">
       <form action="#" method="#">
+        <div class="price">
           <h3>Стоимость</h3>
             <label for="min-price">от</label>
               <input id="min-price" type="text">
             <label for="max-price">до</label>
               <input id="max-price" type="text">
+        </div>
+        <div class="grid">
           <h3>Сетка</h3>
             <input id="adaptive" type="radio" name="grid" value="adaptive">
               <label for="adaptive">Адаптивная</label>
@@ -40,6 +41,8 @@
               <label for="fix">Фиксированная</label>
             <input id="rubber" type="radio" name="grid" value="rubber">
               <label for="rubber">Резиновая</label>
+        </div>
+        <div class="properties">
           <h3>Особенности</h3>
             <input id="slider" type="checkbox">
               <label for="slider">Слайдер</label>
@@ -51,6 +54,7 @@
               <label for="gallery">Галерея</label>
             <input id="basket" type="checkbox">
               <label for="basket">Корзина</label>
+        </div>
         <input type="submit" value="Показать">
       </form>
     </section>
@@ -63,33 +67,33 @@
         <a href="#">вниз</a>
         <a href="#">вверх</a>
     </div>
-    <div class="cards">
-      <article class="sedona">
+    <div class="cards clearfix">
+      <article class="card-product">
         <div class="hat"><span class="hat-span"></span></div>
         <img src="img/sedona.jpg" width="360" height="576" alt="sedona">
         <a class="price-btn" href="#">9900 руб.</a>
       </article>
-      <article class="pink">
+      <article class="card-product">
         <div class="hat"><span class="hat-span"></span></div>
         <img src="img/pink.jpg" width="360" height="576" alt="pink">
         <a class="price-btn" href="#">9900 руб.</a>
       </article>
-      <article class="barsh">
+      <article class="card-product">
         <div class="hat"><span class="hat-span"></span></div>
         <img src="img/barsh.jpg" width="360" height="576" alt="barsh">
         <a class="price-btn" href="#">9900 руб.</a>
       </article>
-      <article class="mishka">
+      <article class="card-product">
         <div class="hat"><span class="hat-span"></span></div>
         <img src="img/mishka.jpg" width="360" height="576" alt="mishka">
         <a class="price-btn" href="#">9900 руб.</a>
       </article>
-      <article class="study">
+      <article class="card-product">
         <div class="hat"><span class="hat-span"></span></div>
         <img src="img/study.jpg" width="360" height="576" alt="study">
         <a class="price-btn" href="#">9900 руб.</a>
       </article>
-      <article class="kvas">
+      <article class="card-product">
         <div class="hat"><span class="hat-span"></span></div>
         <img src="img/kvas.jpg" width="360" height="576" alt="kvas">
         <a class="price-btn" href="#">9900 руб.</a>
@@ -104,8 +108,7 @@
     </section>
   </main>
   <div class="map">
-    <img src="img/map.psb" width="1440" height="415" alt="map">
-      <div class="footer-contacts">
+      <div class="map-contacts">
         <p>Nёrds design studio</p>
         <p>191186 Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         <a href="tell">тел. +7(812)275-75-75</a>
